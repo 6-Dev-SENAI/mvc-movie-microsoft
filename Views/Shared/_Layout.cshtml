@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tutorial de ASP.NET Core MVC da Microsoft seguido pelo grupo da 6-Dev, do SENAI." />
+    <meta name="robots" content="all, notranslate" />
+    
+    <title>@ViewData["Title"] | 6-Dev</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Movies" asp-action="Index">Aplicativo de Filmes</a>
+                <div class="dropdown flex-grow-2 mr-2">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a>
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Error">Erro (apenas demonstração)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Movies" asp-action="Index">Aplicativo de Filmes</a>
+                    </div>
+                </div>
+                <div class="dropdown flex-grow-2 mr-2">
+                    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Olá Mundo
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="HelloWorld" asp-action="Index">Olá mundo</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Movies" asp-action="Index">Aplicativo de Filmes</a>
+                    </div>
+                </div>
+                <div class="dropdown flex-grow-1">
+                    <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Filmes
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item nav-link text-dark" asp-area="" asp-controller="Movies" asp-action="Index">Aplicativo de Filmes</a>
+                    </div>
+                </div>
+                @* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a>
+                        </li>
+                    </ul>
+                </div> *@
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">&copy; 2021 - 6-Dev</a> | Escola SENAI Suíço-Brasileiro Paulo Ernesto Tolle
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
