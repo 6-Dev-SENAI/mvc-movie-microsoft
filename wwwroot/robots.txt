@@ -16,4 +16,4 @@ Allow: /Controllers/
 Allow: /Views/
 Allow: /wwwroot/
 
-Sitemap: http://{ip}/sitemap.xml
+Sitemap: https://18.191.170.227:5001/sitemap.xml

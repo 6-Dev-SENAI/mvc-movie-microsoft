@@ -3,70 +3,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        <loc>https://{ip}/helloworld/</loc>
+        <loc>https://18.191.170.227:5001/helloworld/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>never</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/helloworld/welcome/</loc>
+        <loc>https://18.191.170.227:5001/helloworld/welcome/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>always</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/</loc>
+        <loc>https://18.191.170.227:5001/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>never</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/home/privacy/</loc>
+        <loc>https://18.191.170.227:5001/home/privacy/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>never</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/home/error/</loc>
+        <loc>https://18.191.170.227:5001/home/error/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>never</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/movies/</loc>
+        <loc>https://18.191.170.227:5001/movies/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>always</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/movies/details/{:id}</loc>
+        <loc>https://18.191.170.227:5001/movies/details/{:id}</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>always</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/movies/create/</loc>
+        <loc>https://18.191.170.227:5001/movies/create/</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>never</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/movies/edit/{:id}</loc>
+        <loc>https://18.191.170.227:5001/movies/edit/{:id}</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>always</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/movies/delete/{:id}</loc>
+        <loc>https://18.191.170.227:5001/movies/delete/{:id}</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>always</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/movies/deleteall</loc>
+        <loc>https://18.191.170.227:5001/movies/deleteall</loc>
         <lastmod>2021-09-09</lastmod>
         <changefreq>always</changefreq>
    </url>
    <url>
-        <loc>https://{ip}/</loc>
+        <loc>https://18.191.170.227:5001/</loc>
         <image:image>
-            <image:loc>http://{ip}/favicon.ico</image:loc>
+            <image:loc>https://18.191.170.227:5001/favicon.ico</image:loc>
         </image:image>
    </url>
    <url>
-        <loc>https://{ip}/</loc>
+        <loc>https://18.191.170.227:5001/</loc>
         <image:image>
-            <image:loc>http://{ip}/assets/images/banner.png</image:loc>
+            <image:loc>https://18.191.170.227:5001/assets/images/banner.png</image:loc>
         </image:image>
    </url>
 </urlset>
