@@ -80,21 +80,71 @@ $ dotnet run
 
 ---
 
-### Author
+### Authors
 
-<a href="https://github.com/Gustavo-Apolonio">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61479398?v=4" width="100px;" alt=""/>
- <br />
- <sub>
-  <b>Gustavo Apolonio</b>
- </sub>
-</a>
-
-&#128075; Get in contact!
-
-[![GitHub Badge](https://img.shields.io/badge/-GustavoApolonio-gray?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Gustavo-Apolonio)](https://github.com/Gustavo-Apolonio)
-[![Linkedin Badge](https://img.shields.io/badge/-Gustavo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gustavo-apolonio-4206451b7/)](https://www.linkedin.com/in/gustavo-apolonio-4206451b7/)
-[![WhatsApp Badge](https://img.shields.io/badge/-WhatsApp-green?style=flat-square&logo=Whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=5511951488854&text=Hello%20Gustavo.%20I've%20found%20you%20on%20GitHub!)](https://api.whatsapp.com/send?phone=5511951488854&text=Hello%20Gustavo.%20I've%20found%20you%20on%20GitHub!)
-[![Gmail Badge](https://img.shields.io/badge/-gustavo.apolonio.nascimento@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gustavo.apolonio.nascimento@gmail.com)](mailto:gustavo.apolonio.nascimento@gmail.com)
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <a href="https://github.com/Gustavo-Apolonio">
+                    <img src="https://avatars.githubusercontent.com/u/61479398?v=4" width="100px" style="border-radius: 50%;" alt=""/>
+                </a>
+            </td>
+            <td>
+                Gustavo
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Diogo
+            </td>
+            <td>
+                <a href="https://github.com/diogolimalucasdev">
+                    <img src="https://avatars.githubusercontent.com/u/66488127?v=4" width="100px" style="border-radius: 50%;" alt=""/>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/GuilhermeSeveriano">
+                    <img src="https://avatars.githubusercontent.com/u/87097691?v=4" width="100px" style="border-radius: 50%;" alt=""/>
+                </a>
+            </td>
+            <td>
+                Guilherme
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Edmilson
+            </td>
+            <td>
+                <a href="https://github.com/Edmilson1406">
+                    <img src="https://avatars.githubusercontent.com/u/87097456?v=4" width="100px" style="border-radius: 50%;" alt=""/>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/Gabriel-Silvano">
+                    <img src="https://avatars.githubusercontent.com/u/84875270?v=4" width="100px" style="border-radius: 50%;" alt=""/>
+                </a>
+            </td>
+            <td>
+                Gabriel
+            </td>
+        </tr>
+                <tr>
+            <td>
+                Ana
+            </td>
+            <td>
+                <a href="https://github.com/anaalves-ferr">
+                    <img src="https://avatars.githubusercontent.com/u/88809084?v=4" width="100px" style="border-radius: 50%;" alt=""/>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## [README em Português 🇧🇷](./README.md)
